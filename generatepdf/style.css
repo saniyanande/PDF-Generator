@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+.contact-section {
+    padding: 150px 0 80px;
+}
+
+.contact-section .contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-form .form-control {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contact-section .contact-form textarea.form-control {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.contact-section .contact-form .form-control:focus {
+    box-shadow: none;
+}

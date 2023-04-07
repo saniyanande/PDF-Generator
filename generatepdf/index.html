@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="pdf.php" method="POST">    
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h2>Donate here</h2>
+                    <p>Fill this form, our team will collect your <span>Donation</span> or <span>Wastage</span> from your place.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 mt-5">
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="Name" class="form-control" placeholder="Name" name="Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="Mobno" class="form-control" placeholder="Mobile No." name="Mobileno">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <select name="donation" id="donation">
+                                                        <option value="">Choose Donation or Wastage</option>
+                                                        <option value="food">Food</option>
+                                                        <option value="clothes">Clothes</option>
+                                                        <option value="footware">Footware</option>
+                                                        <option value="books">Books</option>
+                                                        <option value="fund">Fund</option>
+                                                        <option value="gadget">Ele. Gadgets</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" id="Address" class="form-control" placeholder="Address" name="address">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" id="email" class="form-control" placeholder="email" name="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="text" id="Message" cols="90" rows="1" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <input type="submit" id="button" name="submit">
+                                            <!-- <a href="#" class="btn1 mt-5">Submit Details</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </form>
+</body>
+</html>
